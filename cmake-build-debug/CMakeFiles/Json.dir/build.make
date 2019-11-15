@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/rooted/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/anton/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/rooted/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/anton/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rooted/Documents/lab-01-parser
+CMAKE_SOURCE_DIR = /home/anton/Ccell/jojo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rooted/Documents/lab-01-parser/cmake-build-debug
+CMAKE_BINARY_DIR = /home/anton/Ccell/jojo/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Json.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Json.dir/flags.make
 
 CMakeFiles/Json.dir/sources/Json.cpp.o: CMakeFiles/Json.dir/flags.make
 CMakeFiles/Json.dir/sources/Json.cpp.o: ../sources/Json.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rooted/Documents/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Json.dir/sources/Json.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Json.dir/sources/Json.cpp.o -c /home/rooted/Documents/lab-01-parser/sources/Json.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/Ccell/jojo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Json.dir/sources/Json.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Json.dir/sources/Json.cpp.o -c /home/anton/Ccell/jojo/sources/Json.cpp
 
 CMakeFiles/Json.dir/sources/Json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Json.dir/sources/Json.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rooted/Documents/lab-01-parser/sources/Json.cpp > CMakeFiles/Json.dir/sources/Json.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anton/Ccell/jojo/sources/Json.cpp > CMakeFiles/Json.dir/sources/Json.cpp.i
 
 CMakeFiles/Json.dir/sources/Json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Json.dir/sources/Json.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rooted/Documents/lab-01-parser/sources/Json.cpp -o CMakeFiles/Json.dir/sources/Json.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anton/Ccell/jojo/sources/Json.cpp -o CMakeFiles/Json.dir/sources/Json.cpp.s
 
 # Object files for target Json
 Json_OBJECTS = \
@@ -80,7 +80,7 @@ Json_EXTERNAL_OBJECTS =
 libJsond.a: CMakeFiles/Json.dir/sources/Json.cpp.o
 libJsond.a: CMakeFiles/Json.dir/build.make
 libJsond.a: CMakeFiles/Json.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rooted/Documents/lab-01-parser/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libJsond.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/Ccell/jojo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libJsond.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Json.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Json.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/Json.dir/clean:
 .PHONY : CMakeFiles/Json.dir/clean
 
 CMakeFiles/Json.dir/depend:
-	cd /home/rooted/Documents/lab-01-parser/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rooted/Documents/lab-01-parser /home/rooted/Documents/lab-01-parser /home/rooted/Documents/lab-01-parser/cmake-build-debug /home/rooted/Documents/lab-01-parser/cmake-build-debug /home/rooted/Documents/lab-01-parser/cmake-build-debug/CMakeFiles/Json.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/anton/Ccell/jojo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anton/Ccell/jojo /home/anton/Ccell/jojo /home/anton/Ccell/jojo/cmake-build-debug /home/anton/Ccell/jojo/cmake-build-debug /home/anton/Ccell/jojo/cmake-build-debug/CMakeFiles/Json.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Json.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/rooted/.hunter/_Base/70287b1/511a137/dffbc08/Install/include/nlohmann/json.hpp
+/home/anton/.hunter/_Base/70287b1/511a137/dffbc08/Install/include/nlohmann/json.hpp
 algorithm
 -
 cassert
@@ -284,7 +284,7 @@ vector
 utility
 -
 
-/home/rooted/Documents/lab-01-parser/sources/main.cpp
+/home/anton/Ccell/jojo/sources/main.cpp
 iostream
 -
 fstream

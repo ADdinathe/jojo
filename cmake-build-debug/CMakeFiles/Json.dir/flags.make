@@ -6,5 +6,5 @@ CXX_FLAGS =  -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rooted/Documents/lab-01-parser/include 
+CXX_INCLUDES = -I/home/anton/Ccell/jojo/include 
 

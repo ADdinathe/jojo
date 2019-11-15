@@ -1,5 +1,3 @@
-//"Copyright [year] <VToreZ>"
-
 #include <iostream>
 #include <fstream>
 #include <nlohmann/json.hpp>

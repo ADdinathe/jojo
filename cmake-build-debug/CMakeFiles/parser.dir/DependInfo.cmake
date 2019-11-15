@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rooted/Documents/lab-01-parser/sources/source.cpp" "/home/rooted/Documents/lab-01-parser/cmake-build-debug/CMakeFiles/parser.dir/sources/source.cpp.o"
+  "/home/anton/Ccell/jojo/sources/source.cpp" "/home/anton/Ccell/jojo/cmake-build-debug/CMakeFiles/parser.dir/sources/source.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/home/rooted/.hunter/_Base/70287b1/511a137/dffbc08/Install/include"
+  "/home/anton/.hunter/_Base/70287b1/511a137/dffbc08/Install/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rooted/Documents/lab-01-parser/cmake-build-debug/CMakeFiles/Json.dir/DependInfo.cmake"
+  "/home/anton/Ccell/jojo/cmake-build-debug/CMakeFiles/Json.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

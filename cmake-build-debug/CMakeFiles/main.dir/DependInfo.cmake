@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rooted/Documents/lab-01-parser/sources/main.cpp" "/home/rooted/Documents/lab-01-parser/cmake-build-debug/CMakeFiles/main.dir/sources/main.cpp.o"
+  "/home/anton/Ccell/jojo/sources/main.cpp" "/home/anton/Ccell/jojo/cmake-build-debug/CMakeFiles/main.dir/sources/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/rooted/.hunter/_Base/70287b1/511a137/dffbc08/Install/include"
+  "/home/anton/.hunter/_Base/70287b1/511a137/dffbc08/Install/include"
   )
 
 # Targets to which this target links.
